@@ -4,10 +4,10 @@ import HeroBanner from "../components/HeroBanner";
 import SearchExercises from "../components/SearchExcercises";
 import Exercises from "../components/Excercises";
 
+
 const Home = () => {
-  const [bodyPart, setBodyPart] = useState(["all"]);
+  const [bodyPart, setBodyPart] = useState("all");
   const [exercises, setExercises] = useState([]);
-  console.log(bodyPart)
   return (
     <Box>
       <HeroBanner />
